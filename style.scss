@@ -41,21 +41,26 @@ header{
     
     img{
         width: 100%;
-        height: 140vh;
+        height: 100vh;
         z-index: -1;
         position: absolute;
     }
 
     .contenar_home{
         width: 86%;
+        height: 100vh;
         margin-left: auto;
         margin-right: auto;
         display: flex;
+        align-items: center;
+        justify-content: end;
 
         .div-left{
-            height: 140vh;
             display: flex;
             align-items: end;
+            position: absolute;
+            top: 95vh;
+            left: 100px;
 
             .circle-home{
                 width:306px;
@@ -79,11 +84,9 @@ header{
         }
 
         .div-right{
-            height: 120vh;
-            margin-left: 230px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            margin-top: 20vh;
 
             h1{
                 font-size: 9rem;
@@ -102,3 +105,5 @@ header{
         }
     }
 }        
+
+
