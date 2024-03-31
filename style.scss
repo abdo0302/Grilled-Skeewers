@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+$praymri-font:"Bebas Neue", sans-serif;
+$secondary-font:"Montserrat", sans-serif;
+$praymri-color:white;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+        /*header*/
+header{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+
+    .content_header{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+     
+    a{
+        i{
+            font-size: 30px;
+            color: $praymri-color;
+        }
+        
+    }
+}
+
+}
+.icone-bar:hover{
+    color: rgb(255, 0, 0);
+}
+        /*home*/
+#home{
+    
+    img{
+        width: 100%;
+        height: 140vh;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .contenar_home{
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+
+        .div-left{
+            height: 140vh;
+            display: flex;
+            align-items: end;
+
+            .circle-home{
+                width:306px;
+                height:306px;
+                border-radius: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #f1c50e;
+
+                h1{
+                    font-size: 7rem;
+                    font-family: $secondary-font;
+                }
+                h3{
+                    font-size: 2rem;
+                    font-family: $secondary-font;
+                }
+            }
+        }
+
+        .div-right{
+            height: 120vh;
+            margin-left: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 9rem;
+                font-weight: 700;
+                font-family: $praymri-font;
+                color: $praymri-color;
+            }
+
+            h5{
+                font-size: 3rem;
+                font-family: $secondary-font;
+                font-weight: 400;
+                color: $praymri-color;
+                margin-left: 160px;
+            }
+        }
+    }
+}        

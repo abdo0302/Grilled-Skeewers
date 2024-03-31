@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*header*/
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+header .content_header {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+header .content_header a i {
+  font-size: 30px;
+  color: white;
+}
+
+.icone-bar:hover {
+  color: rgb(255, 0, 0);
+}
+
+/*home*/
+#home img {
+  width: 100%;
+  height: 140vh;
+  z-index: -1;
+  position: absolute;
+}
+#home .contenar_home {
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+#home .contenar_home .div-left {
+  height: 140vh;
+  display: flex;
+  align-items: end;
+}
+#home .contenar_home .div-left .circle-home {
+  width: 306px;
+  height: 306px;
+  border-radius: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1c50e;
+}
+#home .contenar_home .div-left .circle-home h1 {
+  font-size: 7rem;
+  font-family: "Montserrat", sans-serif;
+}
+#home .contenar_home .div-left .circle-home h3 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+#home .contenar_home .div-right {
+  height: 120vh;
+  margin-left: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#home .contenar_home .div-right h1 {
+  font-size: 9rem;
+  font-weight: 700;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+}
+#home .contenar_home .div-right h5 {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-left: 160px;
+}/*# sourceMappingURL=style.css.map */
