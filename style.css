@@ -23,7 +23,7 @@ header .content_header {
   padding: 30px;
 }
 header .content_header a i {
-  font-size: 30px;
+  font-size: 35px;
   color: white;
 }
 
@@ -31,7 +31,7 @@ header .content_header a i {
   color: rgb(255, 0, 0);
 }
 
-/*home*/
+/*home start*/
 #home img {
   width: 100%;
   height: 100vh;
@@ -51,12 +51,12 @@ header .content_header a i {
   display: flex;
   align-items: end;
   position: absolute;
-  top: 95vh;
+  top: 80vh;
   left: 100px;
 }
 #home .contenar_home .div-left .circle-home {
-  width: 306px;
-  height: 306px;
+  width: 280px;
+  height: 280px;
   border-radius: 300px;
   display: flex;
   flex-direction: column;
@@ -78,15 +78,104 @@ header .content_header a i {
   margin-top: 20vh;
 }
 #home .contenar_home .div-right h1 {
-  font-size: 9rem;
+  height: 170px;
+  font-size: 8rem;
   font-weight: 700;
   font-family: "Bebas Neue", sans-serif;
   color: white;
 }
 #home .contenar_home .div-right h5 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: white;
   margin-left: 160px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*home end*/
+/*Gift-Voucher start*/
+#Gift-Voucher img {
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+}
+#Gift-Voucher .contenar_Gift-Voucher {
+  width: 86%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: end;
+}
+#Gift-Voucher .contenar_Gift-Voucher div {
+  display: flex;
+  flex-direction: column;
+}
+#Gift-Voucher .contenar_Gift-Voucher div h1, #Gift-Voucher .contenar_Gift-Voucher div h2 {
+  height: 110px;
+  font-size: 6rem;
+  font-weight: 500;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+}
+#Gift-Voucher .contenar_Gift-Voucher div h2 span {
+  color: #f1c50e;
+}
+
+/*Gift-Voucher end*/
+/*  xl start */
+@media (max-width: 1000px) {
+  #home .contenar_home .div-right h1 {
+    font-size: 7rem;
+    font-weight: 500;
+    height: 150px;
+  }
+  #home .contenar_home .div-right h5 {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+  #home .contenar_home .div-left .circle-home {
+    width: 258px;
+    height: 258px;
+  }
+  #home .contenar_home .div-left .circle-home h1 {
+    font-size: 6rem;
+  }
+  #home .contenar_home .div-left .circle-home h3 {
+    font-size: 1.8rem;
+  }
+}
+/*  xl end*/
+/*  md  start*/
+@media (max-width: 790px) {
+  #home .contenar_home .div-right h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    height: 110px;
+  }
+  #home .contenar_home .div-right h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  #home .contenar_home {
+    width: 95%;
+  }
+  #home .contenar_home .div-left .circle-home {
+    margin-top: 60px;
+    width: 200px;
+    height: 200px;
+  }
+  #home .contenar_home .div-left .circle-home h1 {
+    font-size: 3rem;
+  }
+  #home .contenar_home .div-left .circle-home h3 {
+    font-size: 1.4rem;
+  }
+  #Gift-Voucher .contenar_Gift-Voucher div h1, #Gift-Voucher .contenar_Gift-Voucher div h2 {
+    height: 80px;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+}
+/*  md  end*//*# sourceMappingURL=style.css.map */
